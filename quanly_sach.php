@@ -38,13 +38,8 @@ $data2 = $stm->fetchAll();
 <table border="1" >
 <tr>
 	<td>Hình</td>
-<<<<<<< HEAD
-	<td>Tên sách</td>
-	<td>Mã sách</td>
-=======
 	<td>Mã sách</td>
 	<td>Tên sách</td>
->>>>>>> quanlysach
 	<td>Thuộc thể loại</td>
 	<td>Đơn giá</td>
 	<td>Xoá Sách</td>
