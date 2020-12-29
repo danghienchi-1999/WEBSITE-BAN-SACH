@@ -17,7 +17,7 @@
 <div id="templatemo_content_left"><?php include'subpage/content_left.php' ?></div>
 <div id="templatemo_content_left">
     	<h1>Đăng ký</h1><br>
-<form method="post" enctype="multipart/form-data" >Tài khoản <input type="text" name="taikhoan"><br>Mật khẩu<input type="text" name="matkhau"><br>Họ tên <input type="text" name="hoten"> <br>Số điện thoại <input type="text" name="sodienthoai"><br>Địa chỉ <input type="text" name="diachi"> <br><input type="submit" name="dangky" value="Đăng ký">
+<form method="post" enctype="multipart/form-data" >Tài khoản <input type="text" name="taikhoan"><br>Mật khẩu<input type="password" name="matkhau"><br>Họ tên <input type="text" name="hoten"> <br>Số điện thoại <input type="text" name="sodienthoai"><br>Địa chỉ <input type="text" name="diachi"> <br><input type="submit" name="dangky" value="Đăng ký">
 </div>
 </div>
 </div>
