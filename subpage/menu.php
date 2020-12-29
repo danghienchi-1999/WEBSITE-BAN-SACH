@@ -27,7 +27,7 @@ else
 }
 
 if (isset($_POST['btntimkiem'])) 
-{  $datatk = $_POST['txttimkiem'];
+{  
     
        $query = "SELECT maloai FROM loai WHERE tenloai LIKE '%$datatk%' ";
         $stm = $obj->prepare($query);
@@ -46,8 +46,8 @@ if (isset($_POST['btntimkiem']))
         $row = $stm->fetch(PDO::FETCH_ASSOC);
         $count = $stm->rowCount();   
         if($count>1)
-        {     
-              header('location:chitiet_nhieu.php?masach='.$datatk.'&count='.$count);
+        {
+              header('location:chitiet_nhieu.php?masach='.$datatk);
         } 
         else if($count>0)    
         {
