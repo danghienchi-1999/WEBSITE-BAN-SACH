@@ -27,7 +27,8 @@ else
 }
 
 if (isset($_POST['btntimkiem'])) 
-{  
+{  $datatk = addslashes($_POST['txttimkiem']);
+
     
        $query = "SELECT maloai FROM loai WHERE tenloai LIKE '%$datatk%' ";
         $stm = $obj->prepare($query);
